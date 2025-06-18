@@ -21,6 +21,7 @@ A professional web application for creating Solana SPL tokens with custom parame
 - Node.js 16+ and npm
 - Phantom wallet browser extension
 - A Pinata account for IPFS storage (free tier works)
+- Solana CLI tools installed (required for vanity address generation)
 
 ## 🛠️ Installation
 
@@ -113,6 +114,8 @@ NEXT_PUBLIC_ENABLE_METADATA=true
 4. Click "Generate Vanity Address"
 5. Once the address is generated, proceed with token creation
 6. Your token will use the generated vanity address
+
+> **Note**: The vanity address generator requires Solana CLI tools to be installed on your computer. You can install them by following the official instructions at [https://docs.solanalabs.com/cli/install](https://docs.solanalabs.com/cli/install).
 
 ### Adding Metadata and Social Links
 
