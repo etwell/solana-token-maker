@@ -1,0 +1,30 @@
+# Solana Network Configuration
+# Options: 'devnet', 'testnet', or 'mainnet-beta'
+NEXT_PUBLIC_SOLANA_NETWORK=devnet
+
+# RPC Endpoints (optional - will use default endpoints if not specified)
+# NEXT_PUBLIC_DEVNET_RPC_URL=https://api.devnet.solana.com
+# NEXT_PUBLIC_TESTNET_RPC_URL=https://api.testnet.solana.com
+# NEXT_PUBLIC_MAINNET_RPC_URL=https://api.mainnet-beta.solana.com
+
+# Fee payer wallet (optional - for automated testing only)
+# PRIVATE_KEY=your_private_key_here
+
+# UI Configuration
+NEXT_PUBLIC_APP_NAME=Solana Token Creator
+NEXT_PUBLIC_APP_DESCRIPTION=Create Solana SPL tokens with custom parameters and vanity addresses
+
+# Feature Flags
+NEXT_PUBLIC_ENABLE_VANITY_ADDRESSES=true
+NEXT_PUBLIC_ENABLE_METADATA=true
+
+# Solana RPC URL (optional, defaults to public endpoints)
+NEXT_PUBLIC_SOLANA_RPC_URL=https://api.devnet.solana.com
+
+# Pinata IPFS Configuration
+# Get these values from your Pinata account (https://app.pinata.cloud/keys)
+PINATA_JWT=your_pinata_jwt_here
+NEXT_PUBLIC_GATEWAY_URL=your_gateway_domain.mypinata.cloud
+
+# Legacy Printa API Configuration (deprecated)
+# NEXT_PUBLIC_PRINTA_API_KEY=your_printa_api_key_here 

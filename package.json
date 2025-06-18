@@ -1,0 +1,41 @@
+{
+  "name": "token-creator",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "build-no-lint": "next build --no-lint",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.20.1",
+    "@metaplex-foundation/mpl-token-metadata": "^2.13.0",
+    "@project-serum/borsh": "^0.2.5",
+    "@solana/spl-token": "^0.3.8",
+    "@solana/spl-token-metadata": "^0.1.6",
+    "@solana/wallet-adapter-base": "^0.9.27",
+    "@solana/wallet-adapter-react": "^0.15.39",
+    "@solana/wallet-adapter-react-ui": "^0.9.39",
+    "@solana/wallet-adapter-wallets": "^0.19.37",
+    "@solana/web3.js": "^1.98.2",
+    "borsh": "^2.0.0",
+    "next": "15.3.3",
+    "pinata": "^2.4.8",
+    "pino-pretty": "^13.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
